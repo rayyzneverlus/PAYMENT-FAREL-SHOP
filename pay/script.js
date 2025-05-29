@@ -117,7 +117,7 @@ if (form) {
       `${proofText}`;
 
     const encodedMessage = encodeURIComponent(waMessage);
-    const waNumber = '62882008771871';
+    const waNumber = '6281401942027';
     const waUrl = `https://wa.me/${waNumber}?text=${encodedMessage}`;
     window.open(waUrl, '_blank');
   });
